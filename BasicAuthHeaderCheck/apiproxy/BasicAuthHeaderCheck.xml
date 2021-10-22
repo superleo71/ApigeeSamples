@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="BasicAuthHeaderCheck">
+    <Basepaths>/basicauthcheck</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1634864123441</CreatedAt>
+    <CreatedBy>leo_sun@hotmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>basicauthcheck</DisplayName>
+    <LastModifiedAt>1634864179919</LastModifiedAt>
+    <LastModifiedBy>leo_sun@hotmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:fdf0d80263d79c8691c04769069f5bc890229cb40c2d46fc78a3058a3a524e18cd7c0b8dd1792ab155f4bb073cad71658cf1c122cd7141862d14025fd4cb7b72</ManifestVersion>
+    <Policies>
+        <Policy>Basic-Authentication-1</Policy>
+        <Policy>Raise-Fault-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

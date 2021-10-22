@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Basic-Authentication-1" version="SHA-512:35db430ccf4fdaedeb32b3ac00ea7ebc46b0cfc591427ac77b324533574b1b56c0d78d08b22674ca7ed9a241d478779f7012d98cda5d7fc3dff9bd18c0f45927"/>
+        <VersionInfo resourceName="Raise-Fault-1" version="SHA-512:2ccb384c212bbaae435c5162e655eef8d52ed738ae4e9dac12b869261984afa1546696478900b605afc42dc028952b876ebe26acbde12ed9838d61aab928d65e"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:666d144d7a4966ae629776d2984aab5c0326a5224436137dcd16eaa47dc997530fda27864b2675f523c4459ab32c7734e54fac91f783782a83489e6bbd6b65d2"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
