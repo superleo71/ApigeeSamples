@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-Cleanup">
+    <DisplayName>AM-Cleanup</DisplayName>
+    <Properties/>
+    <Remove>
+        <Headers>
+            <Header name="Content-Length"/>
+            <Header name="Content-Type"/>
+            <Header name="Cache-Control"/>
+            <Header name="X-Forwarded-For"/>
+            <Header name="X-Forwarded-Port"/>
+            <Header name="X-Forwarded-Proto"/>
+            <Header name="Authorization"/>
+        </Headers>
+        <Payload>true</Payload>
+    </Remove>
+    <Add>
+        <Headers/>
+        <QueryParams/>
+        <FormParams/>
+    </Add>
+    <Set>
+        <Verb>GET</Verb>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

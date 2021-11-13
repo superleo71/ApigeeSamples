@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="EV-JSONTarget">
+    <Source>request</Source>
+    <JSONPayload>
+        <Variable name="target" type="string">
+            <JSONPath>$.target</JSONPath>
+        </Variable>
+    </JSONPayload>
+    <VariablePrefix>test</VariablePrefix>
+</ExtractVariables>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-Cleanup" version="SHA-512:20f4f6d64238452ec39c2bab95b51f549cc957c2a79fa6ff3a2485b4ed452b51986af2f08a32d8aa71d461610723b1f2831a00b04966ce3ad0fd2399fd079354"/>
+        <VersionInfo resourceName="EV-JSONTarget" version="SHA-512:39c6bdcfcbcde591f760b6d1702783e8fa67a362d45a40563edc28fbb65b9da25e69624b6a61a945df129ae915ac5c9decde9a80949d285dd7f00e04e41700b4"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:5990dc412dcc802e54c89b9e6c712bfe1dcfd1771b1dd4097fc0e5c9bb5dad8104a9b254613b4963a2a32c47a47834dc7a59f16378c7f00c25bc7851b9be6ad1"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="apigeemock" version="SHA-512:b41b4e12facf7be0dc7ce1ccb9bf6bbdca223ade06b29ab832790e569a6601d522ba2cd5ada859215a77956e0d8b6cbbcd999e276a769596ebf47e593817d7a0"/>
+        <VersionInfo resourceName="mulesoft" version="SHA-512:a7e6fd25ea6c56ed45e51d03658f6e7f7c7c7f2ccdac4eaadfe5f40b7707ba11a59019131175020e723228c40395459524c28a49feb855cd909e060e8bfc63fb"/>
+    </TargetEndpoints>
+</Manifest>
